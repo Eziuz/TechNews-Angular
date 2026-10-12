@@ -1,0 +1,126 @@
+:host {
+    display: block;
+    height: 100%;
+}
+
+.news-card{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+}
+
+.news-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.news-content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+/*categoria estilos*/
+.category{
+    display:inline-block;
+    width: fit-content;
+    flex: 0 0 auto;
+    background-color: #7b2cbf;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.news-date {
+    color: #94a3b8;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.news-description {
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 18px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    min-height: 63px;
+}
+
+.news-content h3{
+    color: #07152e;
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 12px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    min-height: 56px;
+}
+
+.news-content p{
+    color: #4b5563;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 18px 0;
+}
+
+.read-more{
+    margin-top: auto;
+    cursor: pointer;
+    color: #22aee8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover{
+    text-decoration: underline;
+}
+
+/* boton favoritos estilo*/
+.news-image {
+    position: relative;
+}
+
+.news-image img {
+    display: block;
+
+    width: 100%;
+    height: 180px;
+
+    object-fit: cover;
+}
+
+.favorite-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+

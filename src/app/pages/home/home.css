@@ -1,0 +1,214 @@
+.section-header {
+    text-align: center;
+
+    max-width: 700px;
+
+    margin: 0 auto 40px;
+}
+
+
+.section-header h2 {
+    color: #07152e;
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+
+.section-header p {
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+.featured-news{
+    padding: 30px 50px;
+    background-color: #f5f7fa;
+}
+
+.featured-news h2{
+    color : #07152e;
+    font-size: 26px;
+    margin: 0 0 25px 0;
+}
+
+.news-container{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* estilos del hero */
+.hero{
+    background-image:
+        url('/img/Background-hero.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 380px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero-content{
+    max-width: 550px;
+}
+
+/* hero titulo */
+.hero h1{
+    color: #fff;
+    font-size: 48px;
+    margin:0 0 20px 0;
+}
+
+/* hero descripcion */
+.hero p{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* boton hero */
+.hero-button{
+    display: inline-block;
+    background-color: #22c7f0;
+    color: #020817;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 22px;
+    border-radius: 8px;
+}
+
+.hero-button:hover{
+   transform: translateY(-2px);
+}
+
+
+/* newsletter estilos */
+.newsletter{
+    margin: 35px 50px;
+    padding: 25px 45px;
+    background: linear-gradient(
+        110deg,
+        #020817,
+        #10105a,
+        #5410a6
+    );
+
+    border-radius: 12px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30 px;
+}
+
+.newsletter-content{
+    display: flex ;
+    align-items: center;
+    gap: 25px;
+}
+
+.newsletter-icon{
+    color: #22c7f0;
+    font-size: 40px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.newsletter-text h2{
+    color: white;
+    font-size: 22px;
+    margin: 0 0 8px 0;
+}
+
+.newsletter-text p {
+    color: #e2e8f0;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.newsletter-button{
+    background-color: #22c7f0;
+    color: #07152e;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 45px;
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.newsletter-button:hover {
+    transform: translateY(-2px);
+}
+
+/* estilos de footer */
+
+.footer{
+    background-image: url("/img/Backgroundfooter.png");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 35px 50px 15px;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.footer-logo span{
+    color: #22c7f0;
+}
+
+.footer-brand p {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 300px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-column a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column a:hover{
+    color: #22c7f0;
+}
+
+.footer-column p {
+    color: #cbd5e1;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #cbd5e1;
+}

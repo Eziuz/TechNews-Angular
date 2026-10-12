@@ -1,0 +1,41 @@
+<article class="news-card">
+                        
+    <div class="news-image">
+
+        <img [src]="noticia.imagen" [alt]="noticia.titulo">
+                    
+        <button type ="button" class="favorite-button">♡</button>
+    </div>
+
+     <div class="news-content">
+
+        <div class="news-meta">
+
+            <span class="category">
+                {{ noticia.categoria }}
+            </span>
+
+            <span class="news-date">
+                {{ noticia.fecha }}
+            </span>
+
+        </div>
+
+
+        <h3>
+            {{ noticia.titulo }}
+        </h3>
+
+
+        <p class="news-description">
+            {{ noticia.descripcion }}
+        </p>
+
+
+        <a class="read-more">
+            Ver más →
+        </a>
+
+    </div>
+
+</article>

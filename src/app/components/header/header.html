@@ -1,0 +1,36 @@
+<header class="header">
+    
+    <div class="logo">
+        Tech <span>News</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li> 
+                <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+                    Inicio
+                </a> 
+            </li>
+            <li> 
+                <a routerLink="/noticias" routerLinkActive="active">
+                    Noticias
+                </a>
+            </li>
+            <li> 
+                <a routerLink="/favoritos" routerLinkActive="active">
+                    Favoritos
+                </a>
+            </li>
+            <li> 
+                <a routerLink="/contacto" routerLinkActive="active">
+                    Contacto
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <a routerLink="/noticias" class="explore-button">
+        Explorar noticias
+    </a>
+
+</header>

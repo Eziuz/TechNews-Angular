@@ -1,0 +1,842 @@
+[
+    {
+        "id": 1,
+        "titulo": "La inteligencia artificial impulsa nuevas herramientas digitales",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg12.png",
+        "descripcion": "Nuevas soluciones digitales combinan automatizacion, datos y herramientas inteligentes para mejorar tareas cotidianas.",
+        "fecha": "27/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Nuevas soluciones digitales combinan automatizacion, datos y herramientas inteligentes para mejorar tareas cotidianas. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La inteligencia artificial impulsa nuevas herramientas digitales\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "titulo": "El aprendizaje en linea evoluciona con nuevas plataformas",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg2.png",
+        "descripcion": "Las plataformas educativas evolucionan con experiencias mas flexibles, personalizadas y accesibles.",
+        "fecha": "26/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las plataformas educativas evolucionan con experiencias mas flexibles, personalizadas y accesibles. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"El aprendizaje en linea evoluciona con nuevas plataformas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "titulo": "La computacion cuantica avanza hacia aplicaciones practicas",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg11.png",
+        "descripcion": "Investigadores trabajan en sistemas capaces de resolver problemas complejos mediante nuevos modelos de computacion.",
+        "fecha": "25/09/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Investigadores trabajan en sistemas capaces de resolver problemas complejos mediante nuevos modelos de computacion. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La computacion cuantica avanza hacia aplicaciones practicas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "titulo": "Los dispositivos inteligentes cambian los habitos cotidianos",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg12.png",
+        "descripcion": "Los dispositivos conectados permiten automatizar tareas y ofrecer experiencias mas personalizadas.",
+        "fecha": "24/09/2026",
+        "destacada": false,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los dispositivos conectados permiten automatizar tareas y ofrecer experiencias mas personalizadas. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Los dispositivos inteligentes cambian los habitos cotidianos\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Nuevos lenguajes de programacion ganan terreno",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg9.png",
+        "descripcion": "El desarrollo incorpora herramientas pensadas para simplificar procesos y mejorar la productividad.",
+        "fecha": "23/09/2026",
+        "destacada": true,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "El desarrollo incorpora herramientas pensadas para simplificar procesos y mejorar la productividad. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Nuevos lenguajes de programacion ganan terreno\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "La educacion tecnologica llega a mas aulas",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg2.png",
+        "descripcion": "La tecnologia educativa facilita nuevas formas de enseñar, aprender y acceder a contenidos.",
+        "fecha": "22/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La tecnologia educativa facilita nuevas formas de enseñar, aprender y acceder a contenidos. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La educacion tecnologica llega a mas aulas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "La exploracion espacial incorpora nuevas tecnologias",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg10.png",
+        "descripcion": "Nuevos instrumentos y sistemas digitales mejoran la observacion y exploracion del espacio.",
+        "fecha": "21/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Nuevos instrumentos y sistemas digitales mejoran la observacion y exploracion del espacio. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La exploracion espacial incorpora nuevas tecnologias\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "Las interfaces digitales se vuelven mas intuitivas",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg7.png",
+        "descripcion": "El diseño de interfaces busca reducir la complejidad y ofrecer experiencias mas claras.",
+        "fecha": "20/09/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "El diseño de interfaces busca reducir la complejidad y ofrecer experiencias mas claras. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las interfaces digitales se vuelven mas intuitivas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "La nube redefine la infraestructura de las empresas",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg1.png",
+        "descripcion": "Las soluciones en la nube permiten escalar servicios, compartir recursos y reducir costos.",
+        "fecha": "19/09/2026",
+        "destacada": false,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las soluciones en la nube permiten escalar servicios, compartir recursos y reducir costos. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La nube redefine la infraestructura de las empresas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "La robotica educativa fomenta nuevas habilidades",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg1.png",
+        "descripcion": "Los proyectos de robotica ayudan a desarrollar logica, creatividad y resolucion de problemas.",
+        "fecha": "18/09/2026",
+        "destacada": false,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los proyectos de robotica ayudan a desarrollar logica, creatividad y resolucion de problemas. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La robotica educativa fomenta nuevas habilidades\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "Los avances en biotecnologia abren nuevas posibilidades",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg2.png",
+        "descripcion": "La ciencia aplicada continua generando innovaciones con impacto en salud, industria y ambiente.",
+        "fecha": "17/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La ciencia aplicada continua generando innovaciones con impacto en salud, industria y ambiente. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Los avances en biotecnologia abren nuevas posibilidades\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "titulo": "Las tendencias digitales transforman el consumo de contenido",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg4.png",
+        "descripcion": "Los usuarios consumen cada vez mas contenido en formatos breves, interactivos y personalizados.",
+        "fecha": "16/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los usuarios consumen cada vez mas contenido en formatos breves, interactivos y personalizados. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las tendencias digitales transforman el consumo de contenido\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "titulo": "La ciberseguridad se fortalece con nuevas estrategias",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg4.png",
+        "descripcion": "Empresas y usuarios adoptan nuevas medidas para proteger sistemas, cuentas y datos.",
+        "fecha": "15/09/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Empresas y usuarios adoptan nuevas medidas para proteger sistemas, cuentas y datos. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La ciberseguridad se fortalece con nuevas estrategias\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "titulo": "La inteligencia artificial apoya procesos de aprendizaje",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg9.png",
+        "descripcion": "Las herramientas inteligentes empiezan a apoyar a docentes y estudiantes en tareas de analisis.",
+        "fecha": "14/09/2026",
+        "destacada": false,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las herramientas inteligentes empiezan a apoyar a docentes y estudiantes en tareas de analisis. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La inteligencia artificial apoya procesos de aprendizaje\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "titulo": "Nuevos materiales prometen mejorar la industria tecnologica",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg10.png",
+        "descripcion": "La investigacion de nuevos materiales busca crear productos mas resistentes, eficientes y sostenibles.",
+        "fecha": "13/09/2026",
+        "destacada": false,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La investigacion de nuevos materiales busca crear productos mas resistentes, eficientes y sostenibles. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Nuevos materiales prometen mejorar la industria tecnologica\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "titulo": "Las experiencias inmersivas ganan popularidad",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg1.png",
+        "descripcion": "La realidad virtual y otras tecnologias inmersivas se integran en entretenimiento y formacion.",
+        "fecha": "12/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La realidad virtual y otras tecnologias inmersivas se integran en entretenimiento y formacion. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las experiencias inmersivas ganan popularidad\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "titulo": "El desarrollo web adopta nuevas herramientas",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg9.png",
+        "descripcion": "Las herramientas modernas de desarrollo web buscan mejorar rendimiento, accesibilidad y experiencia.",
+        "fecha": "11/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las herramientas modernas de desarrollo web buscan mejorar rendimiento, accesibilidad y experiencia. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"El desarrollo web adopta nuevas herramientas\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "titulo": "Las plataformas educativas personalizan el aprendizaje",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg4.png",
+        "descripcion": "Los sistemas educativos utilizan datos para adaptar contenidos y actividades a cada estudiante.",
+        "fecha": "10/09/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los sistemas educativos utilizan datos para adaptar contenidos y actividades a cada estudiante. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las plataformas educativas personalizan el aprendizaje\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "titulo": "La astronomia recibe apoyo de nuevos sistemas de observacion",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg12.png",
+        "descripcion": "Nuevos telescopios y sensores permiten estudiar con mayor precision fenomenos del universo.",
+        "fecha": "09/09/2026",
+        "destacada": false,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Nuevos telescopios y sensores permiten estudiar con mayor precision fenomenos del universo. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La astronomia recibe apoyo de nuevos sistemas de observacion\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "titulo": "Las redes sociales incorporan funciones basadas en IA",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg11.png",
+        "descripcion": "Las plataformas sociales experimentan con funciones automaticas para recomendacion y creacion de contenido.",
+        "fecha": "08/09/2026",
+        "destacada": false,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las plataformas sociales experimentan con funciones automaticas para recomendacion y creacion de contenido. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las redes sociales incorporan funciones basadas en IA\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "titulo": "La automatizacion mejora procesos empresariales",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg12.png",
+        "descripcion": "La automatizacion permite reducir tareas repetitivas y optimizar procesos en distintos sectores.",
+        "fecha": "07/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La automatizacion permite reducir tareas repetitivas y optimizar procesos en distintos sectores. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La automatizacion mejora procesos empresariales\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "titulo": "La programacion se consolida como habilidad clave",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg9.png",
+        "descripcion": "Cada vez mas estudiantes incorporan programacion como una habilidad transversal.",
+        "fecha": "06/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Cada vez mas estudiantes incorporan programacion como una habilidad transversal. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La programacion se consolida como habilidad clave\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "titulo": "La investigacion cientifica aprovecha grandes volumenes de datos",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg7.png",
+        "descripcion": "Las herramientas de analisis permiten procesar grandes cantidades de informacion y detectar patrones.",
+        "fecha": "05/09/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las herramientas de analisis permiten procesar grandes cantidades de informacion y detectar patrones. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La investigacion cientifica aprovecha grandes volumenes de datos\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "titulo": "Los asistentes virtuales evolucionan rapidamente",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg4.png",
+        "descripcion": "Los asistentes digitales mejoran su capacidad de interpretar instrucciones y organizar tareas.",
+        "fecha": "04/09/2026",
+        "destacada": true,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los asistentes digitales mejoran su capacidad de interpretar instrucciones y organizar tareas. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Los asistentes virtuales evolucionan rapidamente\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "titulo": "Las bases de datos modernas mejoran su rendimiento",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg8.png",
+        "descripcion": "Nuevas tecnologias de almacenamiento y procesamiento buscan mayor velocidad y seguridad.",
+        "fecha": "03/09/2026",
+        "destacada": true,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Nuevas tecnologias de almacenamiento y procesamiento buscan mayor velocidad y seguridad. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las bases de datos modernas mejoran su rendimiento\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "titulo": "La educacion STEM gana importancia en las instituciones",
+        "categoria": "Educacion",
+        "imagen": "img/cardimg10.png",
+        "descripcion": "Las instituciones promueven ciencia, tecnologia, ingenieria y matematicas para fortalecer competencias.",
+        "fecha": "02/09/2026",
+        "destacada": false,
+        "autor": "Redaccion TechNews",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las instituciones promueven ciencia, tecnologia, ingenieria y matematicas para fortalecer competencias. Este tema ha despertado un creciente interes dentro de la categoria Educacion, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La educacion STEM gana importancia en las instituciones\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "titulo": "Los laboratorios digitales aceleran la investigacion",
+        "categoria": "Ciencia",
+        "imagen": "img/cardimg5.png",
+        "descripcion": "Las herramientas digitales permiten simular experimentos y analizar resultados con mayor rapidez.",
+        "fecha": "01/09/2026",
+        "destacada": false,
+        "autor": "Laura Martinez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las herramientas digitales permiten simular experimentos y analizar resultados con mayor rapidez. Este tema ha despertado un creciente interes dentro de la categoria Ciencia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Los laboratorios digitales aceleran la investigacion\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "titulo": "La realidad aumentada encuentra nuevos usos",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg13.png",
+        "descripcion": "La realidad aumentada se utiliza en educacion, comercio, mantenimiento y entretenimiento.",
+        "fecha": "30/08/2026",
+        "destacada": false,
+        "autor": "Carlos Ramirez",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "La realidad aumentada se utiliza en educacion, comercio, mantenimiento y entretenimiento. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La realidad aumentada encuentra nuevos usos\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "titulo": "La conectividad de nueva generacion impulsa servicios digitales",
+        "categoria": "Tecnologia",
+        "imagen": "img/cardimg14.png",
+        "descripcion": "Las nuevas redes buscan ofrecer mayor velocidad, menor latencia y soporte para mas dispositivos.",
+        "fecha": "29/08/2026",
+        "destacada": false,
+        "autor": "Sofia Herrera",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Las nuevas redes buscan ofrecer mayor velocidad, menor latencia y soporte para mas dispositivos. Este tema ha despertado un creciente interes dentro de la categoria Tecnologia, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"La conectividad de nueva generacion impulsa servicios digitales\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "titulo": "Las nuevas tendencias tecnologicas cambian la vida diaria",
+        "categoria": "Tendencias",
+        "imagen": "img/cardimg1.png",
+        "descripcion": "Los cambios en software, dispositivos y servicios digitales siguen modificando la vida diaria.",
+        "fecha": "28/08/2026",
+        "destacada": false,
+        "autor": "Daniel Torres",
+        "contenido": [
+            {
+                "subtitulo": "",
+                "texto": "Los cambios en software, dispositivos y servicios digitales siguen modificando la vida diaria. Este tema ha despertado un creciente interes dentro de la categoria Tendencias, especialmente por su impacto en la vida cotidiana y en la transformacion digital."
+            },
+            {
+                "subtitulo": "Un cambio que ya se esta notando",
+                "texto": "El avance relacionado con \"Las nuevas tendencias tecnologicas cambian la vida diaria\" ya comienza a reflejarse en nuevas herramientas, servicios y experiencias. Empresas, instituciones y usuarios exploran formas de aprovechar estas posibilidades de manera mas eficiente y accesible."
+            },
+            {
+                "subtitulo": "Beneficios y oportunidades",
+                "texto": "Entre los principales beneficios se encuentran la automatizacion de tareas, el acceso mas rapido a informacion, la personalizacion de servicios y la posibilidad de desarrollar nuevas soluciones. Estas ventajas pueden mejorar procesos y abrir oportunidades en distintos sectores."
+            },
+            {
+                "subtitulo": "Retos que debemos considerar",
+                "texto": "A pesar de sus ventajas, tambien existen desafios relacionados con la privacidad, la seguridad, la brecha digital, la capacitacion y el uso responsable de la tecnologia. El equilibrio entre innovacion y responsabilidad sera clave para obtener beneficios sostenibles."
+            }
+        ]
+    }
+]

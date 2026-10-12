@@ -1,0 +1,152 @@
+<section class="news-hero">
+
+    <h1>
+        Todas las noticias
+    </h1>
+
+    <p>
+        Explora las últimas novedades
+        sobre tecnología, ciencia,
+        educación y tendencias.
+    </p>
+
+</section>
+
+<section class="all-news">
+
+    <div class="news-tools">
+
+        <div class="search-box">
+            <input
+            #buscador
+            type="search"
+            class="search-input"
+            placeholder="Buscar noticias... 🔍"
+            (input)="actualizarBusqueda(buscador.value)"
+        >
+
+        </div>
+
+        <div class="category-filters">
+
+            @for (
+                categoria of categorias;
+                track categoria
+            ) {
+
+                <button
+                    type="button"
+                    class="filter-button"
+
+                    [class.active]="
+                        categoriaSeleccionada() === categoria
+                    "
+
+                    (click)="
+                        seleccionarCategoria(categoria)
+                    "
+                >
+
+                    {{ categoria }}
+
+                </button>
+
+            }
+
+        </div>
+
+    </div>
+
+
+    @if (noticiasPagina().length > 0) {
+
+        <div class="all-news-container">
+
+            @for (
+                noticia of noticiasPagina();
+                track noticia.id
+            ) {
+
+                <app-news-card
+                    [noticia]="noticia">
+                </app-news-card>
+
+            }
+
+        </div>
+
+    } @else {
+
+        <p class="no-results">
+            No se encontraron noticias.
+        </p>
+
+    }
+
+
+    @if (totalPaginas() > 1) {
+
+        <nav
+            class="pagination"
+            aria-label="Paginación de noticias"
+        >
+
+            <button
+                type="button"
+
+                (click)="paginaAnterior()"
+
+                [disabled]="
+                    paginaActual() === 1
+                "
+            >
+                ‹
+            </button>
+
+
+            @for (
+                pagina of paginas();
+                track pagina
+            ) {
+
+                <button
+                    type="button"
+
+                    [class.active]="
+                        paginaActual() === pagina
+                    "
+
+                    (click)="
+                        irAPagina(pagina)
+                    "
+                >
+
+                    {{ pagina }}
+
+                </button>
+
+            }
+
+
+            <button
+                type="button"
+
+                (click)="paginaSiguiente()"
+
+                [disabled]="
+                    paginaActual() === totalPaginas()
+                "
+            >
+                ›
+            </button>
+
+        </nav>
+
+    }
+
+</section>
+
+
+<footer class="footer-simple">
+    <p>©2026 TechNews</p>
+</footer>

@@ -1,0 +1,122 @@
+<section class="hero">
+
+  <div class="hero-content">
+
+    <h1>
+      Tecnología que transforma tu mundo
+    </h1>
+
+    <p>
+      Noticias, innovación y tendencias
+      explicadas de forma clara.
+    </p>
+
+    <a
+      routerLink="/noticias"
+      class="hero-button"
+    >
+      Explorar noticias →
+    </a>
+
+  </div>
+
+</section>
+
+<section class="featured-news">
+    <h2>Noticias destacadas</h2>
+
+    <div class="news-container">
+
+        @for (    
+            noticia of noticiasDestacadas();
+            track noticia.id ) {
+            <app-news-card [noticia]="noticia"></app-news-card>
+        }
+
+    </div>
+                    
+</section>
+
+<section class="newsletter">
+
+    <div class = "newsletter-content">
+
+        <div class="newsletter-icon">
+            ✉
+        </div>
+
+        <div class="newsletter-text">
+
+            <h2>
+                Mantente actualizado con TechNews
+            </h2>
+
+            <p>
+            Recibe las últimas noticias, análisis y tendenciastecnológicas directamente en tu correo.
+            </p>
+
+        </div>
+
+        <a
+            href="#"
+            class="newsletter-button"
+        >
+            Suscribirme
+        </a>
+
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-content">
+        <div class="footer-brand">
+            <div class="footer-logo">
+                Tech<span>News</span>
+            </div>
+            <p >
+            Tu fuente confiable de noticias, innovación y tendencias del mundo tecnológico.
+            </p>
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Navegación</h3>
+
+
+            <a routerLink="/">Inicio</a>
+            <a routerLink="/noticias">Noticias</a>
+            <a href="favoritos.html">Favoritos</a>
+            <a href="contacto.html">Contacto</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Categorías</h3>
+
+            <a href="#">Inteligencia Artificial</a>
+            <a href="#">Ciberseguridad</a>
+            <a href="#">Gadgets</a>
+            <a href="#">Software</a>
+            <a href="#">Innovación</a>
+
+        </div>
+
+        <div class="footer-column">
+
+            <h3>Contacto</h3>
+
+            <p>hola@technews.com</p>
+            <p>+34 600 123 456</p>
+            <p>Madrid, España</p>
+
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        ©2026 TechNews
+    </div>
+
+</footer>
