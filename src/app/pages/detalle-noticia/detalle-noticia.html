@@ -1,0 +1,164 @@
+@if (noticiaSeleccionada(); as noticia) {
+
+    <main class="detail-layout">
+
+
+        <article class="article-detail">
+
+             <p class="breadcrumb">
+                    Inicio / Noticias / 
+            </p>
+
+            <span class="detail-category">
+                {{ noticia.categoria }}
+            </span>
+
+
+            <h1>
+                {{ noticia.titulo }}
+            </h1>
+
+
+            <div class="article-meta">
+
+                <span>
+                    {{ noticia.fecha }}
+                </span>
+
+                <span>
+                    Por {{ noticia.autor }}
+                </span>
+
+            </div>
+
+
+            <img
+                class="detail-main-image"
+                [src]="noticia.imagen"
+                [alt]="noticia.titulo"
+            >
+
+
+            <p class="article-description">
+                {{ noticia.descripcion }}
+            </p>
+
+
+            <div class="article-content">
+
+                @for (
+                    seccion of noticia.contenido;
+                    track $index
+                ) {
+
+                    <section>
+
+                        <h2>
+                            {{ seccion.subtitulo }}
+                        </h2>
+
+                        <p>
+                            {{ seccion.texto }}
+                        </p>
+
+                    </section>
+
+                }
+
+            </div>
+
+        </article>
+
+
+        <aside class="detail-sidebar">
+
+            <section class="related-news">
+
+                <h2>
+                    Noticias relacionadas
+                </h2>
+
+
+                <div
+                    id="related-news-container"
+                >
+
+                    @for (
+                        relacionada
+                        of noticiasRelacionadas();
+                        track relacionada.id
+                    ) {
+
+                        <article
+                            class="related-card"
+                        >
+
+                            <img
+                                [src]="relacionada.imagen"
+                                [alt]="relacionada.titulo"
+                            >
+
+
+                            <div
+                                class="related-card-meta"
+                            >
+
+                                <span
+                                    class="related-category"
+                                >
+                                    {{ relacionada.categoria }}
+                                </span>
+
+                                <span
+                                    class="related-date"
+                                >
+                                    {{ relacionada.fecha }}
+                                </span>
+
+                            </div>
+
+
+                            <a
+                                class="related-title"
+
+                                [routerLink]="[
+                                    '/noticia',
+                                    relacionada.id
+                                ]"
+                            >
+                                {{ relacionada.titulo }}
+                            </a>
+
+                        </article>
+
+                    }
+
+                </div>
+
+            </section>
+
+        </aside>
+
+    </main>
+
+<footer class="footer-simple">
+    <p>©2026 TechNews</p>
+</footer>
+
+
+} @else {
+
+    <div class="not-found">
+
+        <h1>
+            Noticia no encontrada
+        </h1>
+
+        <a routerLink="/noticias">
+            Volver a Todas las noticias
+        </a>
+
+    </div>
+
+}
+

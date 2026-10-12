@@ -1,0 +1,56 @@
+    <div class="news-hero">
+
+        <h1>
+            Mis favoritos
+        </h1>
+
+        <p>
+            Aquí encontrarás las noticias
+            que has guardado para consultar después.
+        </p>
+
+    </div>
+
+<section class="favorites">
+
+    @if (
+        noticiasFavoritas().length > 0
+    ) {
+
+        <div class="favorites-container">
+
+            @for (
+                noticia of noticiasFavoritas();
+                track noticia.id
+            ) {
+
+                <app-news-card
+                    [noticia]="noticia">
+                </app-news-card>
+
+            }
+
+        </div>
+
+    } @else {
+
+        <div class="favorites-empty">
+
+            <h2>
+                Aún no tienes favoritos
+            </h2>
+
+            <p>
+                Marca el corazón de una noticia
+                para guardarla aquí.
+            </p>
+
+        </div>
+
+    }
+
+</section>
+
+<footer class="footer-simple">
+    <p>©2026 TechNews</p>
+</footer>

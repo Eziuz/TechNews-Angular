@@ -1,0 +1,196 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.detail-page{
+    background-color: white;
+}
+
+.detail-layout {
+    display: grid;
+    grid-template-columns: 2fr 0.8fr;
+    gap: 40px;
+    padding: 45px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.article-detail {
+    min-width: 0;
+}
+
+.breadcrumb {
+    color: #64748b;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.detail-category{
+    display: inline-block;
+    color: #22bfe8;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-detail h1{
+    color: #07152e;
+    font-size: 46px;
+    line-height: 1.05;
+    margin: 5px 0 14px 0;
+}
+
+
+.article-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #64748b;
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.detail-main-image {
+    display: block;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.article-detail p {
+    color: #1e293b;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.article-detail h2 {
+    color: #07152e;
+    font-size: 20px;
+    margin: 18px 0 6px;
+}
+
+.detail-sidebar {
+    min-width: 0;
+}
+
+.article-actions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.article-actions button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 18px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #07152e;
+    cursor: pointer;
+}
+
+.article-actions button:last-child {
+    border-bottom: none;
+}
+
+.article-actions button:hover {
+    background-color: #f8fafc;
+    color: #22bfe8;
+}
+
+#related-news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.related-card img {
+    display: block;
+
+    width: 100%;
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+}
+
+.related-card-meta {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 10px;
+}
+
+.related-category {
+    color: #22bfe8;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.related-date {
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+.related-title {
+    display: block;
+
+    color: #07152e;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    line-height: 1.4;
+
+    text-decoration: none;
+}
+
+.related-title:hover {
+    color: #22bfe8;
+}
+
+.related-news h2 {
+    color: #07152e;
+    font-size: 20px;
+    margin: 0 0 15px 0;
+}
+
+.breadcrumb {
+    color: #64748b;
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+.footer-simple{
+    margin-top: auto;
+    background-color: #07152e;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+}
+
+.footer-simple p{
+    margin: 0;
+    font-size: 14px;
+}

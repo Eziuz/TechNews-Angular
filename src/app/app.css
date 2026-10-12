@@ -1,18 +1,14 @@
-html,
-body {
-    height: 100%;
+:host {
+    min-height: 100dvh;
+
+    display: grid;
+
+    grid-template-rows:
+        auto
+        1fr;
 }
 
-body {
-    margin: 0;
-}
 
-app-root {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
+.app-main {
+    min-height: 0;
 }

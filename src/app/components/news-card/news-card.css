@@ -124,3 +124,6 @@
     cursor: pointer;
 }
 
+.favorite-button.active {
+    color: #7b2cbf;
+}

@@ -1,0 +1,302 @@
+<section class="contact-page">
+
+    <div class="contact-heading">
+
+        <h1>
+            Hablemos de tecnología
+        </h1>
+
+        <p>
+            ¿Tienes alguna pregunta, sugerencia
+            o quieres ponerte en contacto con nosotros?
+            Escríbenos.
+        </p>
+
+    </div>
+
+
+    <div class="contact-layout">
+
+        <!-- FORMULARIO -->
+
+        <div class="contact-form-card">
+
+            <h2>
+                Envíanos un mensaje
+            </h2>
+
+
+            <form
+                [formGroup]="formularioContacto"
+                (ngSubmit)="enviarFormulario()"
+            >
+
+                <!-- NOMBRE -->
+
+                <div class="form-group">
+
+                    <label for="nombre">
+                        Nombre
+                    </label>
+
+                    <input
+                        id="nombre"
+                        type="text"
+                        formControlName="nombre"
+                        placeholder="Tu nombre"
+                    >
+
+
+                    @if (
+                        formularioContacto.controls.nombre.touched
+                        &&
+                        formularioContacto.controls.nombre.invalid
+                    ) {
+
+                        <p class="error-message">
+
+                            @if (
+                                formularioContacto.controls.nombre
+                                    .hasError('required')
+                            ) {
+                                El nombre es obligatorio.
+                            }
+
+                            @else if (
+                                formularioContacto.controls.nombre
+                                    .hasError('minlength')
+                            ) {
+                                El nombre debe tener al menos
+                                3 caracteres.
+                            }
+
+                        </p>
+
+                    }
+
+                </div>
+
+
+                <!-- CORREO -->
+
+                <div class="form-group">
+
+                    <label for="correo">
+                        Correo electrónico
+                    </label>
+
+                    <input
+                        id="correo"
+                        type="email"
+                        formControlName="correo"
+                        placeholder="correo@ejemplo.com"
+                    >
+
+
+                    @if (
+                        formularioContacto.controls.correo.touched
+                        &&
+                        formularioContacto.controls.correo.invalid
+                    ) {
+
+                        <p class="error-message">
+
+                            @if (
+                                formularioContacto.controls.correo
+                                    .hasError('required')
+                            ) {
+                                El correo es obligatorio.
+                            }
+
+                            @else if (
+                                formularioContacto.controls.correo
+                                    .hasError('email')
+                            ) {
+                                Ingresa un correo válido.
+                            }
+
+                        </p>
+
+                    }
+
+                </div>
+
+
+                <!-- ASUNTO -->
+
+                <div class="form-group">
+
+                    <label for="asunto">
+                        Asunto
+                    </label>
+
+                    <input
+                        id="asunto"
+                        type="text"
+                        formControlName="asunto"
+                        placeholder="¿Sobre qué quieres hablar?"
+                    >
+
+
+                    @if (
+                        formularioContacto.controls.asunto.touched
+                        &&
+                        formularioContacto.controls.asunto.invalid
+                    ) {
+
+                        <p class="error-message">
+                            El asunto debe tener al menos
+                            4 caracteres.
+                        </p>
+
+                    }
+
+                </div>
+
+
+                <!-- MENSAJE -->
+
+                <div class="form-group">
+
+                    <label for="mensaje">
+                        Mensaje
+                    </label>
+
+                    <textarea
+                        id="mensaje"
+                        formControlName="mensaje"
+                        rows="6"
+                        placeholder="Escribe tu mensaje..."
+                    ></textarea>
+
+
+                    @if (
+                        formularioContacto.controls.mensaje.touched
+                        &&
+                        formularioContacto.controls.mensaje.invalid
+                    ) {
+
+                        <p class="error-message">
+                            El mensaje debe tener al menos
+                            10 caracteres.
+                        </p>
+
+                    }
+
+                </div>
+
+
+                <!-- CHECKBOX -->
+
+                <div class="form-check">
+
+                    <input
+                        id="terminos"
+                        type="checkbox"
+                        formControlName="aceptaTerminos"
+                    >
+
+                    <label for="terminos">
+                        Acepto el tratamiento de mis datos.
+                    </label>
+
+                </div>
+
+
+                @if (
+                    formularioContacto.controls.aceptaTerminos.touched
+                    &&
+                    formularioContacto.controls.aceptaTerminos.invalid
+                ) {
+
+                    <p class="error-message">
+                        Debes aceptar esta opción
+                        antes de enviar el formulario.
+                    </p>
+
+                }
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    Enviar mensaje
+                </button>
+
+            </form>
+
+
+            @if (mensajeExito()) {
+
+                <p class="success-message">
+                    {{ mensajeExito() }}
+                </p>
+
+            }
+
+        </div>
+
+
+        <!-- INFORMACIÓN -->
+
+        <aside class="contact-info">
+
+            <h2>
+                TechNews
+            </h2>
+
+            <p class="contact-intro">
+                Estamos interesados en conocer
+                tus comentarios y sugerencias.
+            </p>
+
+
+            <div class="info-item">
+
+                <h3>
+                    Correo
+                </h3>
+
+                <p>
+                    contacto@technews.com
+                </p>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <h3>
+                    Horario
+                </h3>
+
+                <p>
+                    Lunes a viernes
+                </p>
+
+                <p>
+                    8:00 a. m. – 5:00 p. m.
+                </p>
+
+            </div>
+
+
+            <div class="info-item">
+
+                <h3>
+                    Síguenos
+                </h3>
+
+                <p>
+                    Tecnología, ciencia,
+                    educación y tendencias.
+                </p>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</section>

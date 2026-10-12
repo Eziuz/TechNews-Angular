@@ -4,7 +4,7 @@
 
         <img [src]="noticia.imagen" [alt]="noticia.titulo">
                     
-        <button type ="button" class="favorite-button">♡</button>
+        <button type ="button" class="favorite-button" [class.active]="esFavorito()" (click)="toggleFavorito()" [attr.aria-label]="esFavorito() ? 'Quitar de favoritos' : 'Agregar a favoritos'"> {{ esFavorito() ? '♥' : '♡' }}</button>
     </div>
 
      <div class="news-content">
@@ -32,7 +32,7 @@
         </p>
 
 
-        <a class="read-more">
+        <a class="read-more" [routerLink]="['/noticia', noticia.id]">
             Ver más →
         </a>
 
