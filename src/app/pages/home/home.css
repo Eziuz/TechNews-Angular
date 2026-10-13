@@ -42,8 +42,6 @@
 
 /* estilos del hero */
 .hero{
-    background-image:
-        url('img/Background-hero.png');
     background-size: cover;
     background-position: center;
     min-height: 380px;
@@ -147,7 +145,6 @@
 /* estilos de footer */
 
 .footer{
-    background-image: url("img/Backgroundfooter.png");
     background-size: cover;
     background-position: center;
     color: white;
