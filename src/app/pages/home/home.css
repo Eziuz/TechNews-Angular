@@ -98,7 +98,6 @@
     border-radius: 12px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
     gap: 30 px;
 }
 
@@ -115,6 +114,10 @@
     text-align: center;
 }
 
+.newsletter-text {
+    flex: 1;
+}
+
 .newsletter-text h2{
     color: white;
     font-size: 22px;
@@ -129,6 +132,7 @@
 }
 
 .newsletter-button{
+    margin-left: auto;
     background-color: #22c7f0;
     color: #07152e;
     text-decoration: none;
