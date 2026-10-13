@@ -15,7 +15,7 @@ export class NoticiasService {
 
 
   private readonly url =
-    '/data/noticias_30_detalle.json';
+    'data/noticias_30_detalle.json';
 
 
   private readonly claveStorage =
