@@ -1,0 +1,433 @@
+@if (mostrarFormulario()) {
+
+    <section class="news-form-card">
+
+        <div class="form-title">
+
+            <h2>
+                Nueva noticia
+            </h2>
+
+            <button
+                type="button"
+                class="close-button"
+                (click)="cerrarFormulario()"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <form
+            [formGroup]="formularioNoticia"
+            (ngSubmit)="guardarNoticia()"
+        >
+
+            <div class="form-grid">
+
+                <!-- TÍTULO -->
+
+                <div class="form-group full-width">
+
+                    <label for="titulo">
+                        Título
+                    </label>
+
+                    <input
+                        id="titulo"
+                        type="text"
+                        formControlName="titulo"
+                        placeholder="Título de la noticia"
+                    >
+
+                </div>
+
+
+                <!-- CATEGORÍA -->
+
+                <div class="form-group">
+
+                    <label for="categoria">
+                        Categoría
+                    </label>
+
+                    <select
+                        id="categoria"
+                        formControlName="categoria"
+                    >
+
+                        <option value="">
+                            Selecciona una categoría
+                        </option>
+
+                        <option value="Tecnologia">
+                            Tecnologia
+                        </option>
+
+                        <option value="Educacion">
+                            Educacion
+                        </option>
+
+                        <option value="Ciencia">
+                            Ciencia
+                        </option>
+
+                        <option value="Tendencias">
+                            Tendencias
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- FECHA -->
+
+                <div class="form-group">
+
+                    <label for="fecha">
+                        Fecha
+                    </label>
+
+                    <input
+                        id="fecha"
+                        type="date"
+                        formControlName="fecha"
+                    >
+
+                </div>
+
+
+                <!-- AUTOR -->
+
+                <div class="form-group">
+
+                    <label for="autor">
+                        Autor
+                    </label>
+
+                    <input
+                        id="autor"
+                        type="text"
+                        formControlName="autor"
+                        placeholder="Autor"
+                    >
+
+                </div>
+
+
+                <!-- IMAGEN -->
+
+                <div class="form-group">
+
+                     <label for="imagen">
+                        Imagen
+                    </label>
+
+                    <select
+                        id="imagen"
+                        formControlName="imagen"
+                    >
+
+                        <option value="">
+                            Selecciona una imagen
+                        </option>
+
+
+                        @for (
+                            ruta of rutasImagenes();
+                            track ruta
+                        ) {
+
+                            <option [value]="ruta">
+                                {{ ruta }}
+                            </option>
+
+                        }
+
+                    </select>
+
+                      @if (
+                            formularioNoticia.controls.imagen.value
+                        ) {
+
+                            <div class="image-preview">
+
+                                <img
+                                    [src]="formularioNoticia.controls.imagen.value"
+                                    alt="Vista previa de la imagen"
+                                >
+
+                            </div>
+
+                        }
+                </div>
+
+
+                <!-- DESCRIPCIÓN -->
+
+                <div class="form-group full-width">
+
+                    <label for="descripcion">
+                        Descripción
+                    </label>
+
+                    <textarea
+                        id="descripcion"
+                        rows="3"
+                        formControlName="descripcion"
+                        placeholder="Descripción breve..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- SUBTÍTULO -->
+
+                <div class="form-group full-width">
+
+                    <label for="subtitulo">
+                        Subtítulo del contenido
+                    </label>
+
+                    <input
+                        id="subtitulo"
+                        type="text"
+                        formControlName="subtitulo"
+                        placeholder="Subtítulo"
+                    >
+
+                </div>
+
+
+                <!-- CONTENIDO -->
+
+                <div class="form-group full-width">
+
+                    <label for="contenidoTexto">
+                        Contenido
+                    </label>
+
+                    <textarea
+                        id="contenidoTexto"
+                        rows="6"
+                        formControlName="contenidoTexto"
+                        placeholder="Contenido de la noticia..."
+                    ></textarea>
+
+                </div>
+
+
+                <!-- DESTACADA -->
+
+                <div class="form-check full-width">
+
+                    <input
+                        id="destacada"
+                        type="checkbox"
+                        formControlName="destacada"
+                    >
+
+                    <label for="destacada">
+                        Marcar como noticia destacada
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <div class="form-actions">
+
+                <button
+                    type="button"
+                    class="cancel-button"
+                    (click)="cerrarFormulario()"
+                >
+                    Cancelar
+                </button>
+
+
+                <button
+                    type="submit"
+                    class="save-button"
+                >
+                    Crear noticia
+                </button>
+
+            </div>
+
+        </form>
+
+    </section>
+
+}
+
+<section class="admin-news">
+
+    <div class="admin-header">
+
+        <div>
+
+            <h1>
+                Gestión de noticias
+            </h1>
+
+            <p>
+                Crea, edita y elimina
+                las noticias de TechNews.
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="create-button"
+            (click)="abrirFormulario()"
+        >
+            + Nueva noticia
+        </button>
+
+    </div>
+
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>
+                        ID
+                    </th>
+
+                    <th>
+                        Noticia
+                    </th>
+
+                    <th>
+                        Categoría
+                    </th>
+
+                    <th>
+                        Fecha
+                    </th>
+
+                    <th>
+                        Destacada
+                    </th>
+
+                    <th>
+                        Acciones
+                    </th>
+
+                </tr>
+
+            </thead>
+
+
+            <tbody>
+
+                @for (
+                    noticia of noticias();
+                    track noticia.id
+                ) {
+
+                    <tr>
+
+                        <td>
+                            {{ noticia.id }}
+                        </td>
+
+
+                        <td class="news-cell">
+
+                            <img
+                                [src]="noticia.imagen"
+                                [alt]="noticia.titulo"
+                            >
+
+                            <span>
+                                {{ noticia.titulo }}
+                            </span>
+
+                        </td>
+
+
+                        <td>
+                            {{ noticia.categoria }}
+                        </td>
+
+
+                        <td>
+                            {{ noticia.fecha }}
+                        </td>
+
+
+                        <td>
+
+                            @if (noticia.destacada) {
+
+                                <span
+                                    class="status featured"
+                                >
+                                    Sí
+                                </span>
+
+                            } @else {
+
+                                <span
+                                    class="status"
+                                >
+                                    No
+                                </span>
+
+                            }
+
+                        </td>
+
+
+                        <td>
+
+                            <div class="actions">
+
+                                <button
+                                    type="button"
+                                    class="edit-button"
+                                    (click)="editarNoticia(noticia)"
+                                >
+                                    Editar
+                                </button>
+
+
+                                <button
+                                    type="button"
+                                    class="delete-button"
+                                    (click)="eliminarNoticia(noticia)"
+                                >
+                                    Eliminar
+                                </button>
+
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                }
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<footer class="footer-simple">
+    <p>©2026 TechNews</p>
+</footer>

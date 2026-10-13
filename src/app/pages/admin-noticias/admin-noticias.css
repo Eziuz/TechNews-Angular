@@ -1,0 +1,373 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.admin-news {
+    padding: 40px 50px;
+
+    background-color: #f5f7fa;
+
+    min-height: 100%;
+}
+
+
+.admin-header {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+
+    margin-bottom: 30px;
+}
+
+
+.admin-header h1 {
+    color: #07152e;
+
+    font-size: 32px;
+
+    margin: 0 0 8px;
+}
+
+
+.admin-header p {
+    color: #64748b;
+
+    margin: 0;
+}
+
+
+.create-button {
+    border: none;
+
+    background-color: #22bfe8;
+    color: #07152e;
+
+    padding: 12px 20px;
+
+    border-radius: 7px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    white-space: nowrap;
+}
+
+
+.table-container {
+    overflow-x: auto;
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0, 0, 0, 0.07);
+}
+
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+
+th,
+td {
+    padding: 15px;
+
+    text-align: left;
+
+    border-bottom:
+        1px solid #e5e7eb;
+}
+
+
+th {
+    color: #07152e;
+
+    background-color: #f8fafc;
+
+    font-size: 13px;
+}
+
+
+td {
+    color: #475569;
+
+    font-size: 14px;
+}
+
+
+.news-cell {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    min-width: 300px;
+}
+
+
+.news-cell img {
+    width: 65px;
+    height: 45px;
+
+    object-fit: cover;
+
+    border-radius: 5px;
+}
+
+
+.status {
+    display: inline-block;
+
+    padding: 4px 9px;
+
+    border-radius: 12px;
+
+    background-color: #e5e7eb;
+
+    font-size: 12px;
+}
+
+
+.status.featured {
+    background-color: #ede9fe;
+
+    color: #6d28d9;
+}
+
+
+.actions {
+    display: flex;
+
+    gap: 8px;
+}
+
+
+.actions button {
+    border: none;
+
+    padding: 7px 11px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+.edit-button {
+    background-color: #e0f2fe;
+
+    color: #0369a1;
+}
+
+
+.delete-button {
+    background-color: #fee2e2;
+
+    color: #b91c1c;
+}
+
+.news-form-card {
+    background-color: white;
+
+    padding: 30px;
+
+    margin-bottom: 30px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 12px
+        rgba(0, 0, 0, 0.07);
+}
+
+
+.form-title {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 25px;
+}
+
+
+.form-title h2 {
+    color: #07152e;
+
+    margin: 0;
+}
+
+
+.close-button {
+    border: none;
+
+    background: none;
+
+    color: #64748b;
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+
+.form-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+
+.full-width {
+    grid-column:
+        1 / -1;
+}
+
+
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+
+.form-group label {
+    color: #07152e;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 11px 13px;
+
+    border:
+        1px solid #d1d5db;
+
+    border-radius: 6px;
+
+    font-family: inherit;
+
+    font-size: 14px;
+}
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+
+    border-color: #22bfe8;
+}
+
+.form-check {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.form-actions {
+    display: flex;
+
+    justify-content: flex-end;
+
+    gap: 12px;
+
+    margin-top: 25px;
+}
+
+
+.cancel-button,
+.save-button {
+    border: none;
+
+    padding: 11px 18px;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.cancel-button {
+    background-color: #e5e7eb;
+
+    color: #475569;
+}
+
+
+.save-button {
+    background-color: #22bfe8;
+
+    color: #07152e;
+}
+
+
+.success-message {
+    background-color: #dcfce7;
+
+    color: #166534;
+
+    padding: 12px 15px;
+
+    border-radius: 7px;
+
+    margin-bottom: 20px;
+}
+
+.image-preview {
+    margin-top: 10px;
+}
+
+
+.image-preview img {
+    display: block;
+
+    width: 100%;
+    max-width: 280px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 7px;
+}
+
+.footer-simple{
+    margin-top: auto;
+    background-color: #07152e;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+}
+
+.footer-simple p{
+    margin: 0;
+    font-size: 14px;
+}

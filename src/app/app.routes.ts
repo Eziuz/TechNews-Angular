@@ -4,12 +4,14 @@ import { Noticias } from './pages/noticias/noticias';
 import { Favoritos } from './pages/favoritos/favoritos';
 import { Contacto } from './pages/contacto/contacto';
 import { DetalleNoticia } from './pages/detalle-noticia/detalle-noticia'; 
+import { AdminNoticias} from './pages/admin-noticias/admin-noticias';
 
 export const routes: Routes = [
   { path: '', component: Home },
   { path: 'noticias', component: Noticias },
   { path: 'favoritos', component: Favoritos },
   { path: 'contacto', component: Contacto },
-  { path: 'noticia/:id', component: DetalleNoticia }
+  { path: 'noticia/:id', component: DetalleNoticia },
+  { path: 'admin/noticias', component: AdminNoticias }
 ];
 
